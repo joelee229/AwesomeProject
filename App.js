@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {
-  Platform,
   StyleSheet,
   ScrollView,
   View,
@@ -72,11 +71,9 @@ export default class App extends Component{
 
 const styles = StyleSheet.create({
   Header: {
-    
     backgroundColor:  "#999",
     margin: 0,
     padding: 15,
-    
   },
   HeaderText:{
     color: "#fff",
